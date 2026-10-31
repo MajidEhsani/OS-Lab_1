@@ -2,6 +2,7 @@
 // Input is from the keyboard or serial port.
 // Output is written to the screen and serial port.
 
+
 #include "types.h"
 #include "defs.h"
 #include "param.h"
@@ -32,6 +33,7 @@ printint(int xx, int base, int sign)
   int i;
   uint x;
 
+  
   if(sign && (sign = xx < 0))
     x = -xx;
   else
