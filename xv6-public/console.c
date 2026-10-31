@@ -52,6 +52,7 @@ printint(int xx, int base, int sign)
 }
 //PAGEBREAK: 50
 
+
 // Print to the console. only understands %d, %x, %p, %s.
 void
 cprintf(char *fmt, ...)
@@ -125,6 +126,7 @@ panic(char *s)
   for(;;)
     ;
 }
+
 
 //PAGEBREAK: 50
 #define BACKSPACE 0x100
