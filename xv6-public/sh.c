@@ -377,6 +377,7 @@ expandalias(char *buf)
   }
 }
 
+
 int
 main(void)
 {
