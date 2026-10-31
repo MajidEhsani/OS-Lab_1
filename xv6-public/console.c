@@ -64,6 +64,7 @@ cprintf(char *fmt, ...)
 
   if (fmt == 0)
     panic("null fmt");
+  
 
   argp = (uint*)(void*)(&fmt + 1);
   for(i = 0; (c = fmt[i] & 0xff) != 0; i++){
