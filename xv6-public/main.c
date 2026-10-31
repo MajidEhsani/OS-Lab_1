@@ -49,6 +49,8 @@ mpenter(void)
 
 // Common CPU setup code.
 static void
+
+
 mpmain(void)
 {
   cprintf("cpu%d: starting %d\n", cpuid(), cpuid());
@@ -63,7 +65,6 @@ mpmain(void)
   xchg(&(mycpu()->started), 1); // tell startothers() we're up
   scheduler();     // start running processes
 }
-
 pde_t entrypgdir[];  // For entry.S
 
 // Start the non-boot (AP) processors.
