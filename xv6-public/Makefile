@@ -21,7 +21,7 @@ OBJS = \
 	swtch.o\
 	syscall.o\
 	sysfile.o\
-	sysproc.o\
+	sysproc.o\  
 	trapasm.o\
 	trap.o\
 	uart.o\
